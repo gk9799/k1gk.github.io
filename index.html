@@ -6,12 +6,21 @@
 
         <link rel="stylesheet" href="/k1gk.github.io/css/main.css">
         <link rel="stylesheet" href="/k1gk.github.io/css/normalize.css">
+
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+        <script>  
+        $(function(){ 
+        $("#header").load("/k1gk.github.io/default/header.html");  
+        $("#nav").load("/k1gk.github.io/default/nav.html");  
+        $("#footer").load("/k1gk.github.io/default/footer.html");  
+        }); 
+        </script>  
     </head>
 
     <body>
         <!-- header -->
-        <include src = "/k1gk.github.io/default/nav.html"></include>
-        <include src = "/k1gk.github.io/default/header.html"></include>
+        <div id="header"></div>
+        <div id="nav"></div>
         <!-- header end -->
     
         <div class="placeholder"></div>
@@ -27,7 +36,7 @@
             Throughout the years in SFU, I’ve experienced designing with <b>Figma</b> and <b>Adobe Creative Suite</b> and gained basic coding skills in <b>HTML&CSS</b>, <b>PHP</b> and <b>MySQL</b>. I am aware that there are still a lot of additional design skills and tools I should learn as designs evolve and user preferences changes. I am looking forward to learning and employing those skills for a better user-friendly world : )</p>
         </div>
 
-        <include src = "/k1gk.github.io/default/footer.html"></include>
+        <div id="footer"></div>
 
     </body>
 </html>

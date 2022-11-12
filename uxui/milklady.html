@@ -4,14 +4,21 @@
         <title>k1gk&#9836; Portfolio</title>
         <link rel="stylesheet" href="/k1gk.github.iofolio/css/normalize.css">
         <link rel="stylesheet" href="/k1gk.github.iofolio/css/main.css">
+
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+        <script>  
+        $(function(){ 
+        $("#header").load("/k1gk.github.io/default/header.html");  
+        $("#nav").load("/k1gk.github.io/default/nav.html");  
+        $("#footer").load("/k1gk.github.io/default/footer.html");  
+        }); 
+        </script>  
     </head>
 
     <body>
         <!-- header -->
-        <!-- <?php
-        require('../default/nav.php');
-        require('../default/header.php');
-        ?> -->
+        <div id="header"></div>
+        <div id="nav"></div>
         <!-- header end -->
 
         <!-- project title -->
@@ -265,9 +272,7 @@
                 </div>
             </div>
 
-        <!-- <?php
-        require('../default/footer.php');
-        ?> -->
+            <div id="footer"></div>
 
 
     </body>
