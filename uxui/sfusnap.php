@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>k1gk&#9836; Portfolio</title>
+        <link rel="stylesheet" href="/PHPportfolio/css/normalize.css">
+        <link rel="stylesheet" href="/PHPportfolio/css/main.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <?php
+        require('../default/nav.php');
+        require('../default/header.php');
+        ?>
+        <!-- header end -->
+
+        <!-- project title -->
+        <div ="pName">
+        <a href="/PHPportfolio/uxui.php"><h2 class="category">UI Feature Design</h2></a>
+            <h2>SFUsnap</h2>
+        </div>
+
+        <div class= "img">
+            <img class="pimg" src="/PHPportfolio/img/ss1.png" alt="The existing SFUsnap App's Feature Design Proposal" width=80% oncontextmenu="return false;">
+        </div>
+
+
+        <!-- project summary -->
+        <div class="summary">
+
+            <div class="summary_obj">
+                <h3>Role</h3>
+                <p>UI Designer</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Timeline</h3>
+                <p>Auguest 2022 - August 2022 (2 weeks)</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Tool(s)</h3>
+                <p>Figma</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Outcome</h3>
+                <a class="outcome" href="https://www.figma.com/proto/Sn4I7PNseNxV4HCQAi5ytX/Grace's-Workspace?page-id=499%3A8399&node-id=499%3A8400&viewport=209%2C371%2C0.02&scaling=scale-down"><p>Full Report with a Wire flow and a Mockup</p></a>
+            </div>
+
+            <!-- horizontal line for division -->
+            <hr>
+
+        </div>
+
+        <!-- project details -->
+        <div class="content">
+            <h3>Overview</h3>
+                <p>
+                SFU snap is an app that allows SFU students to plan their campus experience easily with customized information. Nevertheless, this app does not offer a feature to view or modify personal information through the app. It also has some missing personal information as well. For example, the students can not edit their enrollment information nor view their tuition account information, while these features are necessary to the students. Thus, I designed a new feature for the SFU snap app for a two-week individual project in an Interface Design course. The objective of this project is to create a feature that allows SFU students to easily access their personal information on goSFU website on the SFUsnap app. 
+                </p>
+
+                <div class= "img">
+                    <img class="pimg" src="/PHPportfolio/img/ss2.png" alt="The goSFU Website's current flow" width=80% oncontextmenu="return false;">
+                </div>
+
+                <!-- content in sections -->
+                <div class="content_obj">
+                    <h4>Process</h4>
+                    <h4 class="content_obj_subsection">Issue Identification & Planning</h4>
+                    <p>
+                    After choosing the SFUsnap app to use for this project, I analyzed the current flow of the goSFU website on mobile. The landing page is inefficient as it has too much space, while the webpage only contains one tab available. The settings from each page are inconsistent and have different elements; the one from the landing page is too overwhelming with a long list of unnecessary elements, and another one from the Student centre is too simplified. The fonts are too small with tight spacing as the website shows a laptop-friendly screen, even on mobile. 
+                    <br><br>
+                    I reviewed the goSFU website to decide on information to include in the new feature. At the end of this phase, I finalized to have five sections in total. There are sections for editing personal contact information, viewing the academic process, viewing enrollment status, viewing grades, and completing SFU Athletics & Recreation waiver. 
+                    </p>
+
+                    <div class= "img">
+                        <img class="pimg" src="/PHPportfolio/img/ss3.png" alt="The Style Guide based on the Existing App SFUsnap with Newly Designed Icons" width=80% oncontextmenu="return false;">
+                    </div>
+
+                    <h4 class="content_obj_subsection">Style Guide & Icons</h4>
+                    <p>
+                    After I learned about the issues and found a design opportunity, I created a style guide for this project. The same colours and fonts from the actual SFU snap app are used for consistency, but I created icons to use as buttons. 
+                    </p>
+
+                    <h4 class="content_obj_subsection">Wireflows</h4>
+                    <p>
+                    I created wireflows based on the SFUsnap app and the style guide. I paid careful attention to the layout, the spacing for each element on the screens, and the consistency with the original goSFU website and SFUsnap app. I also tried to have high completeness of the wireflows to visualize the whole flow and the layout at a glance.
+                    </p>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-1.png" alt="Wireflow - Edit Personal Information (1)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-2.png" alt="Wireflow - Edit Personal Information (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-3.png" alt="Wireflow - Enrollment (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-4.png" alt="Wireflow - Enrollment (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-5.png" alt="Wireflow - View Academic Process" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-6.png" alt="Wireflow - View Grades (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-7.png" alt="Wireflow - View Grades (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-8.png" alt="Wireflow - View Grades (3)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-9.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-10.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-11.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (3)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss4-12.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (4)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+
+                <div class="content_obj">
+                    <h4>Final MOCKUP</h4>
+                    <p>Finally, we created a mockup for the new feature. The visual elements were designed based on a style guide that followed the original SFUsnap app. ​​​​</p>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-1.png" alt="Mockup - Edit Personal Information (1)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-2.png" alt="Mockup - Edit Personal Information (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-3.png" alt="Mockup - Enrollment (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-4.png" alt="Mockup - Enrollment (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-5.png" alt="Mockup - View Academic Process" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-6.png" alt="Mockup - View Grades (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-7.png" alt="Mockup - View Grades (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-8.png" alt="Mockup - View Grades (3)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-9.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-10.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-11.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (3)" width=30% oncontextmenu="return false;">
+
+                    <img class="pimg" src="/PHPportfolio/img/ss5-12.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (4)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class="content_obj">
+                    <h4>Reflection</h4>
+                    <p>
+                    The issue I had while working on this project was the size of each element. The original font size was so small that I thought it might be difficult for users to read the content. Some of the buttons I made were also small, but I kept the font and button size for consistency with the original app. 
+                    <br><br>
+                    Through this project of creating a new feature for an existing app, I was able to review all materials I learned in the Interface Design course. I consider visual design, including creating a wireflow, a mockup, and a prototype, my expertise, so I had fun working on this project. 
+                    </p>
+                </div>
+            </div>
+
+        <?php
+        require('../default/footer.php');
+        ?>
+
+    </body>
+</html>

@@ -1,0 +1,274 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>k1gk&#9836; Portfolio</title>
+        <link rel="stylesheet" href="/PHPportfolio/css/normalize.css">
+        <link rel="stylesheet" href="/PHPportfolio/css/main.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <?php
+        require('../default/nav.php');
+        require('../default/header.php');
+        ?>
+        <!-- header end -->
+
+        <!-- project title -->
+        <div ="pName">
+        <a href="/PHPportfolio/uxui.php"><h2 class="category">UX Design</h2></a>
+            <h2>Milklady Soap Co.</h2>
+        </div>
+
+        <div class= "img">
+            <img class="pimg" src="/PHPportfolio/img/mls1.png" alt="The Design Solution for MilkLady Soap Co. Project was the Website Redesign" width=80% oncontextmenu="return false;">
+        </div>
+
+        <!-- project summary -->
+        <div class="summary">
+
+            <div class="summary_obj">
+                <h3>Role</h3>
+                <p>UX Researcher / Visual Designer</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Timeline</h3>
+                <p>May 2022 - August 2022 (11 weeks)</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Tool(s)</h3>
+                <p>Figma</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Outcome</h3>
+                <a class="outcome" href="https://www.figma.com/proto/Sn4I7PNseNxV4HCQAi5ytX/Grace's-Workspace?page-id=494%3A8366&node-id=494%3A10755&viewport=209%2C371%2C0.02&scaling=scale-down-width&starting-point-node-id=494%3A11036"><p>Interactive Mockup</p></a>
+            </div>
+
+            <!-- horizontal line for division -->
+            <hr>
+
+        </div>
+
+        <!-- project details -->
+        <div class="content">
+            <h3>Overview</h3>
+                <p>
+                Milklady Soap Co is a one-person business that produces handmade soap with natural ingredients that are safe for all users including those with sensitive skin types. As a member of 5 classmates (Liam, Jasmine, Jenny, Nick, and I) in an Interaction Design Method course that offers class contents related to the UX research field, I proposed a design proposal to improve the user experience for Milklady Soap Co.  
+                <br><br>
+                The first three deliverables ( participant poster, ethnography poster, and user persona posters) were heavily based on research, user interviews, and several meetings with the owner Anna Lee. Then we created user journey maps and presented three possible design focuses we could propose to Milklady Soap Co. Based on in-class feedback and another meeting with Anna, we reframed the design focuses and narrowed them down to two focuses. In the final week, we presented the final design concept, a mock-up, a report, and a video that shows the user journey of one of the personas we had. 
+                <br><br>
+                Throughout the entire term of 13 weeks, our team worked synchronously most of the time except for a few weeks due to time conflicts. However, all members participated as much as they could, especially on the tasks in their specialties. Not only did I contribute and suggested directions on the contents of each week’s deliverables, I mostly worked on the visual aspect of the deliverables. 
+                </p>
+
+                <!-- content in sections -->
+                <div class="content_obj">
+                    <h4>Objective</h4>
+                    <p>
+                    EcoSnap's ultimate goal is to keep local coastlines clean and vibrant. People do not take the region's beautiful coastline for granted but have a responsibility to preserve it as it is today for the enjoyment of others, especially our descendants. EcoSnap allows users to report beaches and coastlines in need of environmental cleanup by taking a photo and writing a brief description of the area.
+                    </p>
+                </div>
+
+                <div class="content_obj">
+                    <h4>Process</h4>
+                    <h4 class="content_obj_subsection">Meetings & Interviews</h4>
+                    <p>
+                    The objective of this project was to identify and select a design problem that Milklady Soap Co struggles with and propose a design solution to Anna.
+                    <br><br>
+                    During the first meeting with Anna, we learned that she has struggled with the design and technology aspects of her business. Two main concerns that caught her attention at that time were the packaging design for her products and the poorly developed website. 
+                    <br><br>
+                    Aside from the meeting with our client, I also conducted 5 customer interviews with another member. Only two of us interviewed the customers because most interviewees were Korean. The participants in the interviews we conducted mostly had great feedback on Anna’s products. However, they only had vague ideas about how her products were nature-friendly without knowing how helpful they are for both the environment, society, and the customer themselves.
+                    </p>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                            <img class="pimg" src="/PHPportfolio/img/mls2-1.png" alt="Participant Introduction Poster" width=45% oncontextmenu="return false;">
+
+                            <img class="pimg" src="/PHPportfolio/img/mls2-2.png" alt="Ethnography Poster" width=45% oncontextmenu="return false;">
+
+                        </div>
+
+                    </div>
+
+
+                    <h4 class="content_obj_subsection">Initial Personas & User Journeys</h4>
+                    <p>
+                    Based on the data we collected through research and interviews, our team collected three user personas. Each persona portrays the goals and frustrations that stakeholders, potential users, and existing users have. Together as a team, all members worked synchronously online. I suggested rough descriptions for each persona and worked on the visuals (finding images, illustrations, choosing colours, etc.) as well. All members took parts to fill out the content. 
+                    <br><br>
+                    In the following week, we created user journey maps. We used the three personas for each scenario. At this stage, our team ideated scenarios briefly together and then started to add detailed information. I identified the hypothetical user’s actions, feelings, frustrations, and design opportunities with two other members. After finalizing the details, I and the two other members worked with the visuals and the other two members polished the written content. 
+                    </p>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls3-1.png" alt="Persona Portraying the Stakeholders" width=20% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls3-2.png" alt="Persona Portraying the Potential Customers" width=20% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls3-3.png" alt="Persona Portraying the Existing Customers" width=20% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls3-4.png" alt="Initial Design Concepts" width=20% oncontextmenu="return false;">
+
+                        </div>
+
+                    </div>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                            <img class="pimg" src="/PHPportfolio/img/mls4-1.png" alt="User Journey Map - Purchasing Products Online" width=45% oncontextmenu="return false;">
+
+                            <img class="pimg" src="/PHPportfolio/img/mls4-2.png" alt="User Journey Map - Visiting an In-person Store" width=45% oncontextmenu="return false;">
+
+                        </div>
+                    </div>
+
+                    <h4 class="content_obj_subsection">Three Design Concepts & Storyboards</h4>
+                    <p>
+                    Our team proposed three design concepts and created storyboards for each of them in week 6. I was physically absent due to a personal reason, however, I contributed as much as I could. I conducted two additional interviews to learn more about the customers' digital experience. The interviewees of mine suggested having filters on the product list page on the Milklady Soap website, as has an overwhelming amount of products listed. They also mentioned that the review sections on each product description page are missing. Based on the interviews some members conducted, our team came up with three design concepts. We divided parts for each design concept's content. In addition to the parts I was in charge of, I worked on the illustrations for the packaging and mission design concepts and also the whole content for the website design concept. I modified the content more clearly as well. Although I was not able to participate in the presentation, I maintained to contribute responsibly.  
+                    </p>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls5-1.png" alt="Design Focus on Packaging" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls5-2.png" alt="Storyboard on Packaging (the first page)" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls5-3.png" alt="Storyboard on Packaging (the second page)" width=30% oncontextmenu="return false;">
+
+                        </div>
+                    </div>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls6-1.png" alt="Design Focus on Mission" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls6-2.png" alt="Storyboard on Mission (the first page)" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls6-3.png" alt="Storyboard on Mission (the second page)" width=30% oncontextmenu="return false;">
+
+                        </div>
+                    </div>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls7-1.png" alt="Design Focus on Website" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls7-2.png" alt="Storyboard on Website (the first page)" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls7-3.png" alt="Storyboard on Website (the second page)" width=30% oncontextmenu="return false;">
+
+                        </div>
+                    </div>
+
+                    <h4 class="content_obj_subsection">Participatory Workshop</h4>
+                    <p>
+                    In week 9, we conducted an in-person participatory workshop with the Milklady Soap Co.’s owner, Anna. We invited some customers too, but Anna alone was able to attend due to the schedule conflict. To achieve the goals of learning our client Anna’s values and thus gain more data to reframe our design focuses, our team carefully planned our workshop. We came up with a total of four activities including an icebreaker. I suggested the first activity “Keywords” which helped us to brainstorm ideas. Then we did the “Matrix” activity, also suggested by me, to filter those ideas by ranking them. Lastly, we did a “Crazy 8’s” activity to share our solutions to one idea by sketching them. During the workshop, I organized all ideas and information on the whiteboard and recorded the workshop’s process by taking photos. I participated by suggesting ideas and directions for the workshop as well. Anna commented that the workshop was very helpful as it offered a lot of interesting ideas. Through this participatory workshop, we were able to understand Milklady Soap Co.’s business reality more deeply. As a result of the workshop, we reframed our design focus to offer a more simple and interactive online experience to the customers.  
+                    </p>
+                    
+                    <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls8-1.jpeg" alt="Participatory Workshop - Icebreaker Activity" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls8-2.jpeg" alt="Participatory Workshop - Keywords Activity" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls8-3.jpeg" alt="Participatory Workshop - Matrix Activity" width=30% oncontextmenu="return false;">
+
+                        </div>
+
+                    <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls8-4.jpeg" alt="Participatory Workshop - Crazy 8's Activity" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls8-5.jpeg" alt="Photo of me organizing ideas on whiteboard during participatory workshop" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+
+                    <h4 class="content_obj_subsection">Two Design Concepts & Storyboard</h4>
+                    <p>
+                    After the participatory workshop, our team narrowed down two design concepts and created the storyboards once again. As we all agreed that the Milklady Soap website crucially needs design modification for a better user experience, redesigning a product description page (PDP) was suggested as a solution. We also decided to propose a soap quiz as another design solution as the new customers tend to visit the in-person stores before purchasing online. After finalizing the design concepts, two members worked on the content details and the other three members including myself worked on the layout and illustrations. I finished the soap quiz illustrations and also heavily contributed to the PDP illustrations.
+                    </p>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls9-1.png" alt="Design Focus on Packaging" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls9-2.png" alt="Storyboard on Packaging (the first page)" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls9-3.png" alt="Storyboard on Packaging (the second page)" width=30% oncontextmenu="return false;">
+
+                        </div>
+                    </div>
+
+                    <div class= "img_grid_row">
+
+                        <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls10-1.png" alt="Design Focus on Mission" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls10-2.png" alt="Storyboard on Mission (the first page)" width=30% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/mls10-3.png" alt="Storyboard on Mission (the second page)" width=30% oncontextmenu="return false;">
+
+                        </div>
+                    </div>
+
+                    <h4 class="content_obj_subsection">Final Concept & Mockup</h4>
+                    <p>
+                    Instead of choosing one solution among the two design concepts, our team decided to redesign the website’s core pages (the homepage, the product list page, and the product description pages) and implement a soap quiz on the website. Then, we created a mockup, a report, and a video that contains the user journey as the final deliverables. I actively participated in the mockup and prototype of Milklady Soap's website and the slides for the final presentation on this project. I have gained such valuable UX experience through the Milklady Soap project. 
+                    </p>
+
+                    <video oncontextmenu="return false;" width=80% controls controlsList = "nodownload">
+                    <source src="/PHPportfolio/img/mls_video.mp4" type="video/mp4" >
+                    </video>
+                    <p>Click <a class="outcome" href="https://www.figma.com/proto/Sn4I7PNseNxV4HCQAi5ytX/Grace's-Workspace?page-id=494%3A8366&node-id=494%3A10755&viewport=209%2C371%2C0.02&scaling=scale-down-width&starting-point-node-id=494%3A11036">here</a> to try our Interactive Mockup!</p>
+
+                </div>
+
+                <div class="content_obj">
+                    <h4>Challenge</h4>
+                    <h4 class="content_obj_subsection">Consistent Design Focuses</h4>
+                    <p>
+                    Although the entire project and the processes went ideally well with all members' active participation, we constantly got feedback that our design focuses did not change significantly. Our team learned about Anna’s desire for website redesign and the customers’ inconvenience in their online experience in the early stage, thus, we maintained one design focus on the website. We modified some details on the design focus to try out many directions however, the small changes, such as narrowing down the scope from the entire website redesign to the production description page redesign, were not considered a thoughtfully developed design focus. Our design proposal could have been considered somewhat flat and obvious if we did not implement a soap quiz on the website. The soap quiz allows the customers to fulfill their needs of learning the customized-fit products more interactively. 
+                    </p>
+                </div>
+
+                <div class="content_obj">
+                    <h4>Final Prototype</h4>
+                </div>
+
+                <div class="content_obj">
+                    <h4>Reflection</h4>
+                    <p>
+                    The Interaction Design Method course offered me a successful introduction and a valuable experience with user personas, user journeys, and a participatory workshop. Learning about the advantages of using each method was very useful in this project. I also learned that the more I learn about a variety of interaction design methods, the more I aspire to become a designer who works in the UX/UI field. 
+                    <br><br>
+                    Through this particular project, I once again realized how important which team I am in is. I believe this project was overall successful due to the great teamwork. I was very honoured to be a part of such a great team with people who were passionately engaged and supported each other with different specialties. To conclude, I am aware that having good people to work with within a team is ideal yet very challenging. However, I will always try to be an active and responsible member to contribute to forming a great team.  
+                    </p>
+                </div>
+            </div>
+
+        <?php
+        require('../default/footer.php');
+        ?>
+
+
+    </body>
+</html>

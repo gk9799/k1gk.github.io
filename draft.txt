@@ -1,0 +1,46 @@
+color to use:
+  purple: #78489E
+  red: #D52427
+  black
+  white
+
+original portfolio colours:
+  dark purple: #2E167E
+  yellow: #F5BD41
+  brighter purple: #A097BF
+  background bluish white: #FAFAFF
+
+
+
+index:
+
+        <!-- experiment_navbar -->
+        <!-- https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+        
+        <!-- <div class="navbar">
+            <a href="index.html">About</a> -->
+
+            <!-- UX/UI -->
+            <!-- <div class="uxui">
+              <button class="dropbtn">UX/UI Design 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="uxui/ecosnap.html">EcoSnap</a>
+                <a href="uxui/milklady.html">Milklady Soap Co.</a>
+                <a href="uxui/sfusnap.html">SFUsnap</a>
+              </div>
+            </div> 
+ -->
+            <!-- Web design -->
+            <!-- <div class="webdesign">
+                <button class="dropbtn">Web Design 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="webdesign/inekehans.html">Ineke Hans Microsite</a>
+                  <a href="webdesign/saje.html">Saje UI Redesign</a>
+                </div>
+            </div> 
+
+        </div> -->

@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>k1gk&#9836; Portfolio</title>
+        <link rel="stylesheet" href="/PHPportfolio/css/normalize.css">
+        <link rel="stylesheet" href="/PHPportfolio/css/main.css">
+    </head>
+
+    <body>
+        <!-- header -->
+        <?php
+        require('../default/nav.php');
+        require('../default/header.php');
+        ?>
+        <!-- header end -->
+
+        <!-- project title -->
+        <div ="pName">
+        <a href="/PHPportfolio/webdesign.php"><h2 class="category">Web Design</h2></a>
+            <h2>Saje Website Redesign</h2>
+        </div>
+
+        <div class= "img">
+            <img class="pimg" src="/PHPportfolio/img/sj1.png" alt="The Homepage of Redesigned Saje Website" width=80% oncontextmenu="return false;">
+        </div>
+
+        <!-- project summary -->
+        <div class="summary">
+
+            <div class="summary_obj">
+                <h3>Role</h3>
+                <p>Web Designer</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Timeline</h3>
+                <p>Febuary 2022 - March 2022 (4 weeks)</p>
+            </div>
+
+            <div class="summary_obj">
+                <h3>Tool(s)</h3>
+                <p>HTML&CSS, Figma</p>
+            </div>
+
+            <!-- horizontal line for division -->
+            <hr>
+
+        </div>
+
+        <!-- project details -->
+        <div class="content">
+            <h3>Overview</h3>
+                <p>
+                As a group project for the Web Design and Development course, Christopher Sung and I were told to redesign an existing brand’s website. We chose Saje, a Canadian brand that retails essential oils and skincare products with natural ingredients. Since Saje advertises how nature-friendly their products are, we decided to design with fonts that are not too decorative and colours that remind people of nature such as yellow and green.
+                ​​​​​​​</p>
+
+                <!-- content in sections -->
+                <div class="content_obj">
+                    <h4>Process</h4>
+                    <p>
+                    In this project, I was in charge of product list pages according to categories, product description pages, the cart page, and the footer As the purpose of this website is to attract users without overwhelming them, I tried to make concise product information visually appealing on each page.
+                    <br><br>
+                    On the product list pages, brief information on diffusers and essential oils is provided for users who are not familiar with the products. Each product is listed with an image and its name in rows or columns according to the screen sizes that the users are viewing. I chose each product image that only shows the product itself without any visual distractions to give the users a sense of what to expect in the package. The product description pages include another image of each product but the image on this page visually communicates the product information to the users with the relevant concept (for example, the concept of an essential oil package surrounded by fruits that are used for the scent).
+                    <br><br>
+                    I decided to include the product name, type, brief description, and price on each product page to help the user's decision-making. Below the information, there is a recommendation section, that recommends three products that are relevant to the product to offer more options and supplements to the users. A buy button is placed next to each product information so that the user could simply click the button to be redirected to the cart page.
+                    </p>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                        <img class="pimg" src="/PHPportfolio/img/sj2-1.png" alt="Gray-box Wireframe of a Production Description Page" width=45% oncontextmenu="return false;">
+
+                        <img class="pimg" src="/PHPportfolio/img/sj2-2.png" alt="Mockup of a Production Description Page" width=45% oncontextmenu="return false;">
+
+                    </div>
+
+                </div>
+
+
+                <div class="content_obj">
+                    <h4>Challenge</h4>
+                    <p>
+                    As there are diverse screen sizes commonly used for websites, responsiveness is essential for a better user experience. I tried to make the webpage as responsive as possible, however, I found it challenging to align each element for responsiveness as there are a lot of elements. Especially, I struggled with decision-making on which system (flexbox or grid) to use for the layout.
+                    <br><br>
+                    For example, products are listed easier in columns or rows according to the screen size on the recommendation section of each product description page, yet it is not responsive enough as my initial intention. I tried to align two items in a row for tablet size instead of three, but I was not insightful enough to realize that I could have used a grid system for the specific screen size. This issue was repeated on the cart page (in the section where the purchase summary is presented in a yellow box) as well. To align the items as I intended to, I used an unordered list for the purchase summary section.
+                    ​​​​</p>
+                </div>
+
+                <div class= "img">
+                    <img class="pimg" src="/PHPportfolio/img/sj3.gif" alt="Responsiveness of the Redesigned Website" width=80% oncontextmenu="return false;">
+                </div>
+
+                <div class="content_obj">
+                    <h4>Reflection</h4>
+                    <p>
+                    The best way to realize the weakness of own skill is to apply the skills to actual practice. Unlike the Ineke Hans website project, I was able to create a responsive website with what I learned in the Web Design and Development course. Yet, I could not lay out the features as I initially intended to due to the lack of actual practice. Thankfully, I figured out the skills I am lacking, which led me to study more about them including grid systems. Throughout this project, I also realized that I have to practice more so that my lack of skills in it won't affect my future web development tasks. This project provided me with an opportunity to learn about my weaknesses and improve them.
+                    </p>
+                </div>
+
+        </div>
+
+        <?php
+        require('../default/footer.php');
+        ?>
+
+    </body>
+</html>
