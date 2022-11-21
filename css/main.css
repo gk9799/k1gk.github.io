@@ -179,7 +179,7 @@ video::-webkit-media-controls-enclosure {
 .pimg:hover + .phidden {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FAFAFF;
