@@ -4,46 +4,64 @@
         <title>k1gk&#9836; Portfolio</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
-        <script>  
-        $(function(){ 
-        $("#header").load("default/header.html");  
-        $("#nav").load("default/nav.html");  
-        $("#footer").load("default/footer.html");  
-        }); 
-        </script>  
     </head>
 
     <body>
         <!-- header -->
-        <div id="header"></div>
-        <div id="nav"></div>
+        <div class="header">
+            <!-- home link -->
+            <div class="name">
+                <a href="index.html" class="brand"><h1>Grace Kim</h1></a>
+            </div>
+
+            <div class="nav">
+                <div class= "navelement">    
+                    <a href="index.html#about">About</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="uxui.html">UX/UI Design</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="webdesign.html">Web Design</a>
+                </div>
+            </div>
+    
+        </div>
         <!-- header end -->
-       
-        <div ="bigcategory">
-            <h2>UX/UI Design Projects</h2>
-        </div>
 
-        <div class="uxuimenu">
-        <div class="img">
-                <a href="uxui/ecosnap.html"><img class="plistimg" src="img/uxui1.png" alt="UI Design - EcoSnap" width=40% oncontextmenu="return false;">
-                <br>EcoSnap</a>
+        <div class="body">
+
+            <div class="pheader">
+                <h2><span style="color: #D52427;"><b>UX / UI</b></span> Pr<span style="color: #78489E;">o</span>je<span style="color: #78489E;">c</span>ts</h2>
+
+                <!-- <h2>UX/UI Design Projects</h2> -->
             </div>
 
-            <div class="img">
-                <a href="uxui/milklady.html"><img class="plistimg" src="img/uxui2.png" alt="UX Design - Milklady Soap Co." width=40% oncontextmenu="return false;">
-                <br>Milklady Soap Co.</a>
+            <div class="pElement">
+
+                <div class="pimg">
+                    <div class="puxui">
+                    <a class="pimgelement" href="uxui/ecosnap.html"><img src="img/uxui1.png" alt="UI Design - EcoSnap" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                    <p class="UXUIhidden"><span style="color: #ff9697;">UI Design</span> - <b>EcoSnap</b></p>
+
+                <div class="pimg">
+                    <div class="puxui">
+                    <a href="uxui/milklady.html"><img  src="img/uxui2.png" alt="UX Design - Milklady Soap Co." width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="UXUIhidden"><span style="color: #ff9697;">UX Design</span> - <b>Milklady Soap Co.</b></p>
+
+                <div class="pimg">
+                    <div class="puxui">
+                    <a href="uxui/SFUsnap.html"><img  src="img/uxui3.png" alt="UI Feature Design - SFUsnap" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="UXUIhidden"><span style="color: #ff9697;">UI Feature Design</span> - <b>SFUsnap</b></p>
             </div>
-
-            <div class="img">
-                <a href="uxui/SFUsnap.html"><img class="plistimg" src="img/uxui3.png" alt="UI Feature Design - SFUsnap" width=40% oncontextmenu="return false;"> 
-                <br>SFUsnap</a>
-            </div>
-
-        </div>
-
-        <div id="footer"></div>
+    </div>
+<!-- footer -->
+<div class="footer">
+    <p class="footertext">Designed & Coded by <span style="color: #F5BD41;"><b>&#9836; k1g.k &#9836;</b><span></p>
+</div>
 
     </body>
 </html>

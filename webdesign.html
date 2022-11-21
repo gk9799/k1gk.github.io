@@ -4,41 +4,58 @@
         <title>k1gk&#9836; Portfolio</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
-        <script>  
-        $(function(){ 
-        $("#header").load("default/header.html");  
-        $("#nav").load("default/nav.html");  
-        $("#footer").load("default/footer.html");  
-        }); 
-        </script>  
     </head>
 
     <body>
         <!-- header -->
-        <div id="header"></div>
-        <div id="nav"></div>
+        <div class="header">
+            <!-- home link -->
+            <div class="name">
+                <a href="index.html" class="brand"><h1>Grace Kim</h1></a>
+            </div>
+
+            <div class="nav">
+                <div class= "navelement">    
+                    <a href="index.html#about">About</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="uxui.html">UX/UI Design</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="webdesign.html">Web Design</a>
+                </div>
+            </div>
+    
+        </div>
+
         <!-- header end -->
 
-        <div ="bigcategory">
-            <h2>Web Design Projects</h2>
-        </div>
+        <div class="body">
 
-        <div class="webmenu">
-        <div class="img">
-                <a href="webdesign/saje.html"><img class="plistimg" src="img/web1.png" alt="Web Design - Existing Brand Saje's Website Redesign" width=40% oncontextmenu="return false;">
-                <br>Saje Redesign</a>
+            <div class="pheader">
+                <h2><span style="color: #F5BD41;"><b>WEB</b></span> Pr<span style="color: #78489E;">o</span>je<span style="color: #78489E;">c</span>ts</h2>
             </div>
 
-            <div class="img">
-                <a href="webdesign/inekehans.html"><img class="plistimg" src="img/web2.png" alt="Web Design - Microsite about Designer Ineke Hans" width=40% oncontextmenu="return false;">
-                <br>Ineke Hans Microsite</a>
+            <div class="pElement">
+                <div class="pimg">
+                    <div class="pweb">
+                    <a href="webdesign/saje.html"><img  src="img/web1.png" alt="Web Design - Existing Brand Saje's Website Redesign" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="WEBhidden"><span style="color: #F5BD41;">Web Design</span> - <b>Saje Redesign</b></p>
+
+                <div class="pimg">
+                    <div class="pweb">
+                    <a href="webdesign/inekehans.html"><img  src="img/web2.png" alt="Web Design - Microsite about Designer Ineke Hans" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="WEBhidden"><span style="color: #F5BD41;">Web Design</span> - <b>Ineke Hans Microsite</b></p>
             </div>
 
         </div>
 
-        <div id="footer"></div>
+<!-- footer -->
+<div class="footer">
+    <p class="footertext">Designed & Coded by <span style="color: #F5BD41;"><b>&#9836; k1g.k &#9836;</b><span></p>
+</div>
 
     </body>
 </html>
