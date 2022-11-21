@@ -11,6 +11,28 @@ original portfolio colours:
   background bluish white: #FAFAFF
 
 
+css-different uxui web card colours on top
+.puxui{
+    width: 100%;
+    text-align: center;
+    /* background-color: #D52427; */
+    /* color: #FAFAFF;    */
+    color: #D52427;
+    border-radius: 5px 5px 0 0;
+}
+
+.pweb{
+    width: 100%;
+    text-align: center;
+    /* background-color: #F5BD41; */
+    /* color: #FAFAFF;    */
+    color: #F5BD41;
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+
 
 index:
 

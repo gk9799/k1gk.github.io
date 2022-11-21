@@ -6,38 +6,114 @@
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/normalize.css">
-
-        <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
-        <script>  
-        $(function(){ 
-        $("#header").load("default/header.html");  
-        $("#nav").load("default/nav.html");  
-        $("#footer").load("default/footer.html");  
-        }); 
-        </script>   -->
     </head>
 
     <body>
         <!-- header -->
-        <div id="header"></div>
-        <div id="nav"></div>
-        <!-- header end -->
+        <div class="header">
+            <!-- home link -->
+            <div class="name">
+                <a href="index.html" class="brand"><h1>Grace Kim</h1></a>
+            </div>
+
+            <div class="nav">
+                <div class= "navelement">    
+                    <a href="index.html#about">About</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="uxui.html">UX/UI Design</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="webdesign.html">Web Design</a>
+                </div>
+            </div>
     
-        <!-- <div class="placeholder"></div> -->
-        <!-- About content -->
-        <div class="img">
-            <img class="homeimg" src="img/main.jpeg" alt="Me organizing notes at a participatory workshop" width=100% oncontextmenu="return false;">
         </div>
 
-        <div class - "about" id="about">
-            <h3>Hello! I am <span style="color: #78489E;"><b>Grace Kim &#x2615;</b></span>, an aspiring <span style="color: #F5BD41;"><b>UX / UI Designer</b><span>.</h3>
+        <!-- header end -->
 
-            <p>Aside from delightful design processes, I appreciate adorable creatures (especially cats!), a glimpse of relaxing nature in the middle of busy routines, sincere friends and loving family, and photography that portrays humane genuineness. In terms of my professional self, I am a passionate UX design student studying Interactive Arts and Technology at Simon Fraser University. I value effectiveness and efficiency when it gets to design. My ultimate goal is to become a designer who offers users the most in-depth understanding and empathy.
+
+
+        <!-- About content -->
+        <div class="body">
+        <div class="intro">
+            <h3>Hello! I am <span style="color: #D52427;"><b>Grace Kim &#x2615;</b></span>,<br> 
+                an aspiring <span style="color: #F5BD41;background-color: black;"><b>UX / UI Designer</b></span> aiming to offer users<br>
+                the most in-depth understanding and empathy.</h3>
+
+            <p id="intro" style="font-style: italic;">See <a href="index.html#about"><b>below</b></a> to learn more about me!</p>
+        </div>
+
+        <!-- projects -->
+        <div class="project">
+
+            <div class="pheader">
+                    <h2>Pr<span style="color: #78489E;">o</span>je<span style="color: #78489E;">c</span>ts</h2>
+            </div>
+
+            <div class="pElement">
+                <div class="ptag" id="uxuitag" style="transform: rotate(-90deg);"><b>UX/UI</b></div>
+                <div class="pimg">
+                    <!-- <div class="puxui"><p>UX/UI <span style="color: #78489E;">Design</span></p></div> -->
+                    <div class="puxui">
+                    <a class="pimgelement" href="uxui/ecosnap.html"><img src="img/uxui1.png" alt="UI Design - EcoSnap" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                    <p class="phidden">UI Design - EcoSnap</p>
+
+                <div class="pimg">
+                    <!-- <div class="puxui"><p>UX/UI <span style="color: #78489E;">Design</span></p></div> -->
+                    <div class="puxui">
+                    <a href="uxui/milklady.html"><img  src="img/uxui2.png" alt="UX Design - Milklady Soap Co." width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="phidden">UX Design - Milklady Soap Co.</p>
+
+                <div class="pimg">
+                    <!-- <div class="puxui"><p>UX/UI <span style="color: #78489E;">Design</span></p></div> -->
+                    <div class="puxui">
+                    <a href="uxui/SFUsnap.html"><img  src="img/uxui3.png" alt="UI Feature Design - SFUsnap" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="phidden">UI Feature Design - SFUsnap</p>
+
+                <div class="ptag" id="webtag" style="transform: rotate(-90deg);"><b>WEB</b></div>
+                <div class="pimg">
+                    <!-- <div class="pweb"><p>Web <span style="color: #78489E;">Design</span></p></div> -->
+                    <div class="pweb">
+                    <a href="webdesign/saje.html"><img  src="img/web1.png" alt="Web Design - Existing Brand Saje's Website Redesign" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="phidden">Web Design - Saje Redesign</p>
+
+                <div class="pimg">
+                    <!-- <div class="pweb"><p>Web <span style="color: #78489E;">Design</span></p></div> -->
+                    <div class="pweb">
+                    <a href="webdesign/inekehans.html"><img  src="img/web2.png" alt="Web Design - Microsite about Designer Ineke Hans" width=100% oncontextmenu="return false;"></a></div>
+                </div>
+                <p class="phidden">Web Design - Ineke Hans Microsite</p>
+    
+    
+        </div>
+
+        </div>
+
+        <!-- about me -->
+        <div class="img">
+            <div class="homeoverlay">
+                <img class="homeimg" src="img/main.jpeg" alt="Me organizing notes at a participatory workshop" width=100% oncontextmenu="return false;">
+            </div>
+        </div>
+
+        <div class= "about" id="about">
+            <h3 class="content">Brief <span style="color: #78489E;"><b>introduction</b></span> about me!<br><br></h3>
+
+            <p class="content">Aside from delightful design processes, I appreciate adorable creatures (especially cats 🐈 !), a glimpse of relaxing nature in the middle of busy routines, sincere friends and loving family, and photography that portrays humane genuineness. In terms of my professional self, I am a passionate UX design student studying <b>Interactive Arts and Technology at Simon Fraser University</b>. I value effectiveness and efficiency when it gets to design. My ultimate goal is to become a designer who offers users the most in-depth understanding and empathy.
             <br><br>
             Throughout the years in SFU, I gained experience designing with <b>Figma</b> and <b>Adobe Creative Suite</b>, as well as front-end development skills using <b>HTML&CSS</b> and foundational knowledge of <b>PHP</b> and <b>MySQL</b>. The more I learn, the more I realize how challenging it is to design for and with all users. Still, I would love to offer many lives a more comfortable and merrier experience with my UX design and visual design skills, as a tiny contribution to a better and more beautiful world!</p> 
         </div>
+        </div>
+<!-- end of content -->
 
-        <div id="footer"></div>
+        <div class="footer">
+            <p class="footertext">Designed & Coded by <span style="color: #F5BD41;"><b>&#9836; k1g.k &#9836;</b><span></p>
+        </div>
 
     </body>
 </html>
