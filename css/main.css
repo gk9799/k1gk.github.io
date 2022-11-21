@@ -111,20 +111,6 @@ img{
 video::-webkit-media-controls-enclosure {
     overflow:hidden;
 }
-
-.homeimg{
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.homeoverlay{
-    background-color: #FAFAFF;
-    opacity: 50%;
-    width: 100%;
-}
 /* end of images */
 
 /* content */
@@ -140,6 +126,7 @@ video::-webkit-media-controls-enclosure {
 
 .about{
     margin-top: 10px;
+    min-width: 50%;
 }
 
 #intro{
@@ -195,6 +182,7 @@ video::-webkit-media-controls-enclosure {
     background-color: #78489E;
     margin: 0 10px 10px 10px;
     padding: 5px 10px 5px 10px;
+    border-radius: 5px;
   }
   
 .puxui{
@@ -241,4 +229,31 @@ video::-webkit-media-controls-enclosure {
 
 #webtag{
     background-color: #F5BD41;
+}
+
+.aheader{
+    padding-left: 10px;
+}
+.aboutbox{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-left: 10px;  
+    margin: 20px;
+}
+
+.homeimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scaleX(-1);
+    min-width: 250px;
+}
+
+.homeoverlay{
+    background-color: #FAFAFF;
+    opacity: 50%;
+    width: 100%;
 }
