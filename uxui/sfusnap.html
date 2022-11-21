@@ -4,31 +4,44 @@
         <title>k1gk&#9836; Portfolio</title>
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/main.css">
-
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
-        <script>  
-        $(function(){ 
-        $("#header").load("../default/header.html");  
-        $("#nav").load("../default/nav.html");  
-        $("#footer").load("../default/footer.html");  
-        }); 
-        </script>  
     </head>
 
     <body>
         <!-- header -->
-        <div id="header"></div>
-        <div id="nav"></div>
+        <div class="header">
+            <!-- home link -->
+            <div class="name">
+                <a href="../index.html" class="brand"><h1>Grace Kim</h1></a>
+            </div>
+
+            <div class="nav">
+                <div class= "navelement">    
+                    <a href="../index.html#about">About</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="../uxui.html">UX/UI Design</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="../webdesign.html">Web Design</a>
+                </div>
+            </div>
+    
+        </div>
+
         <!-- header end -->
 
         <!-- project title -->
-        <div ="pName">
-        <a href="../uxui.html"><h2 class="category">UI Feature Design</h2></a>
-            <h2>SFUsnap</h2>
-        </div>
+        <div class="cbody">
+
+            <div class="cheader">
+                <h4><span style="color: #D52427;"><b>UX / UI Design</b></span></h4>
+                <h2>SFUsnap</h2>
+                <!-- horizontal line for division -->
+                <hr>
+            </div>
 
         <div class= "img">
-            <img class="pimg" src="../img/ss1.png" alt="The existing SFUsnap App's Feature Design Proposal" width=80% oncontextmenu="return false;">
+            <img class="cimg" src="../img/ss1.png" alt="The existing SFUsnap App's Feature Design Proposal" width=80% oncontextmenu="return false;">
         </div>
 
 
@@ -68,7 +81,7 @@
                 </p>
 
                 <div class= "img">
-                    <img class="pimg" src="../img/ss2.png" alt="The goSFU Website's current flow" width=80% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss2.png" alt="The goSFU Website's current flow" width=80% oncontextmenu="return false;">
                 </div>
 
                 <!-- content in sections -->
@@ -82,7 +95,7 @@
                     </p>
 
                     <div class= "img">
-                        <img class="pimg" src="../img/ss3.png" alt="The Style Guide based on the Existing App SFUsnap with Newly Designed Icons" width=80% oncontextmenu="return false;">
+                        <img class="cimg" src="../img/ss3.png" alt="The Style Guide based on the Existing App SFUsnap with Newly Designed Icons" width=80% oncontextmenu="return false;">
                     </div>
 
                     <h4 class="content_obj_subsection">Style Guide & Icons</h4>
@@ -100,24 +113,11 @@
 
                     <div class= "img_grid_column">
 
-                    <img class="pimg" src="../img/ss4-1.png" alt="Wireflow - Edit Personal Information (1)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-1.png" alt="Wireflow - Edit Personal Information (1)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss4-2.png" alt="Wireflow - Edit Personal Information (2)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-2.png" alt="Wireflow - Edit Personal Information (2)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss4-3.png" alt="Wireflow - Enrollment (1)" width=30% oncontextmenu="return false;">
-
-                    </div>
-                </div>
-
-                <div class= "img_grid_row">
-
-                    <div class= "img_grid_column">
-
-                    <img class="pimg" src="../img/ss4-4.png" alt="Wireflow - Enrollment (2)" width=30% oncontextmenu="return false;">
-
-                    <img class="pimg" src="../img/ss4-5.png" alt="Wireflow - View Academic Process" width=30% oncontextmenu="return false;">
-
-                    <img class="pimg" src="../img/ss4-6.png" alt="Wireflow - View Grades (1)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-3.png" alt="Wireflow - Enrollment (1)" width=30% oncontextmenu="return false;">
 
                     </div>
                 </div>
@@ -126,11 +126,11 @@
 
                     <div class= "img_grid_column">
 
-                    <img class="pimg" src="../img/ss4-7.png" alt="Wireflow - View Grades (2)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-4.png" alt="Wireflow - Enrollment (2)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss4-8.png" alt="Wireflow - View Grades (3)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-5.png" alt="Wireflow - View Academic Process" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss4-9.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (1)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-6.png" alt="Wireflow - View Grades (1)" width=30% oncontextmenu="return false;">
 
                     </div>
                 </div>
@@ -139,11 +139,24 @@
 
                     <div class= "img_grid_column">
 
-                    <img class="pimg" src="../img/ss4-10.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (2)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-7.png" alt="Wireflow - View Grades (2)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss4-11.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (3)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-8.png" alt="Wireflow - View Grades (3)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss4-12.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (4)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss4-9.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="cimg" src="../img/ss4-10.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="cimg" src="../img/ss4-11.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (3)" width=30% oncontextmenu="return false;">
+
+                    <img class="cimg" src="../img/ss4-12.png" alt="Wireflow - Complete SFU Athletics & Recreation Waiver (4)" width=30% oncontextmenu="return false;">
 
                     </div>
                 </div>
@@ -158,24 +171,11 @@
 
                     <div class= "img_grid_column">
 
-                    <img class="pimg" src="../img/ss5-1.png" alt="Mockup - Edit Personal Information (1)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-1.png" alt="Mockup - Edit Personal Information (1)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss5-2.png" alt="Mockup - Edit Personal Information (2)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-2.png" alt="Mockup - Edit Personal Information (2)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss5-3.png" alt="Mockup - Enrollment (1)" width=30% oncontextmenu="return false;">
-
-                    </div>
-                </div>
-
-                <div class= "img_grid_row">
-
-                    <div class= "img_grid_column">
-
-                    <img class="pimg" src="../img/ss5-4.png" alt="Mockup - Enrollment (2)" width=30% oncontextmenu="return false;">
-
-                    <img class="pimg" src="../img/ss5-5.png" alt="Mockup - View Academic Process" width=30% oncontextmenu="return false;">
-
-                    <img class="pimg" src="../img/ss5-6.png" alt="Mockup - View Grades (1)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-3.png" alt="Mockup - Enrollment (1)" width=30% oncontextmenu="return false;">
 
                     </div>
                 </div>
@@ -184,11 +184,11 @@
 
                     <div class= "img_grid_column">
 
-                    <img class="pimg" src="../img/ss5-7.png" alt="Mockup - View Grades (2)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-4.png" alt="Mockup - Enrollment (2)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss5-8.png" alt="Mockup - View Grades (3)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-5.png" alt="Mockup - View Academic Process" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss5-9.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (1)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-6.png" alt="Mockup - View Grades (1)" width=30% oncontextmenu="return false;">
 
                     </div>
                 </div>
@@ -197,11 +197,24 @@
 
                     <div class= "img_grid_column">
 
-                    <img class="pimg" src="../img/ss5-10.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (2)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-7.png" alt="Mockup - View Grades (2)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss5-11.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (3)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-8.png" alt="Mockup - View Grades (3)" width=30% oncontextmenu="return false;">
 
-                    <img class="pimg" src="../img/ss5-12.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (4)" width=30% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/ss5-9.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (1)" width=30% oncontextmenu="return false;">
+
+                    </div>
+                </div>
+
+                <div class= "img_grid_row">
+
+                    <div class= "img_grid_column">
+
+                    <img class="cimg" src="../img/ss5-10.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (2)" width=30% oncontextmenu="return false;">
+
+                    <img class="cimg" src="../img/ss5-11.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (3)" width=30% oncontextmenu="return false;">
+
+                    <img class="cimg" src="../img/ss5-12.png" alt="Mockup - Complete SFU Athletics & Recreation Waiver (4)" width=30% oncontextmenu="return false;">
 
                     </div>
                 </div>
@@ -215,8 +228,12 @@
                     </p>
                 </div>
             </div>
+        </div>
 
-            <div id="footer"></div>
+    <!-- footer -->
+    <div class="footer">
+        <p class="footertext">Designed & Coded by <span style="color: #F5BD41;"><b>&#9836; k1g.k &#9836;</b><span></p>
+    </div>
 
     </body>
 </html>

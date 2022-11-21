@@ -4,31 +4,44 @@
         <title>k1gk&#9836; Portfolio</title>
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/main.css">
-
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
-        <script>  
-        $(function(){ 
-        $("#header").load("../default/header.html");  
-        $("#nav").load("../default/nav.html");  
-        $("#footer").load("../default/footer.html");  
-        }); 
-        </script>  
     </head>
 
     <body>
         <!-- header -->
-        <div id="header"></div>
-        <div id="nav"></div>
+        <div class="header">
+            <!-- home link -->
+            <div class="name">
+                <a href="../index.html" class="brand"><h1>Grace Kim</h1></a>
+            </div>
+
+            <div class="nav">
+                <div class= "navelement">    
+                    <a href="../index.html#about">About</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="../uxui.html">UX/UI Design</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="../webdesign.html">Web Design</a>
+                </div>
+            </div>
+    
+        </div>
+
         <!-- header end -->
 
         <!-- project title -->
-        <div ="pName">
-        <a href="../webdesign.html"><h2 class="category">Web Design</h2></a>
-            <h2>Saje Website Redesign</h2>
-        </div>
+        <div class="cbody">
 
-        <div class= "img">
-            <img class="pimg" src="../img/sj1.png" alt="The Homepage of Redesigned Saje Website" width=80% oncontextmenu="return false;">
+            <div class="cheader">
+                <h4><span style="color: #F5BD41;"><b>Web Design</b></span></h4>
+                <h2>Saje Website Redesign</h2>
+                <!-- horizontal line for division -->
+                <hr>
+            </div>
+
+            <div class= "img">
+            <img class="cimg" src="../img/sj1.png" alt="The Homepage of Redesigned Saje Website" width=80% oncontextmenu="return false;">
         </div>
 
         <!-- project summary -->
@@ -77,9 +90,9 @@
 
                     <div class= "img_grid_column">
 
-                        <img class="pimg" src="../img/sj2-1.png" alt="Gray-box Wireframe of a Production Description Page" width=45% oncontextmenu="return false;">
+                        <img class="cimg" src="../img/sj2-1.png" alt="Gray-box Wireframe of a Production Description Page" width=45% oncontextmenu="return false;">
 
-                        <img class="pimg" src="../img/sj2-2.png" alt="Mockup of a Production Description Page" width=45% oncontextmenu="return false;">
+                        <img class="cimg" src="../img/sj2-2.png" alt="Mockup of a Production Description Page" width=45% oncontextmenu="return false;">
 
                     </div>
 
@@ -96,7 +109,7 @@
                 </div>
 
                 <div class= "img">
-                    <img class="pimg" src="../img/sj3.gif" alt="Responsiveness of the Redesigned Website" width=80% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/sj3.gif" alt="Responsiveness of the Redesigned Website" width=80% oncontextmenu="return false;">
                 </div>
 
                 <div class="content_obj">
@@ -105,10 +118,13 @@
                     The best way to realize the weakness of own skill is to apply the skills to actual practice. Unlike the Ineke Hans website project, I was able to create a responsive website with what I learned in the Web Design and Development course. Yet, I could not lay out the features as I initially intended to due to the lack of actual practice. Thankfully, I figured out the skills I am lacking, which led me to study more about them including grid systems. Throughout this project, I also realized that I have to practice more so that my lack of skills in it won't affect my future web development tasks. This project provided me with an opportunity to learn about my weaknesses and improve them.
                     </p>
                 </div>
-
+            </div>
         </div>
 
-        <div id="footer"></div>
+    <!-- footer -->
+    <div class="footer">
+        <p class="footertext">Designed & Coded by <span style="color: #F5BD41;"><b>&#9836; k1g.k &#9836;</b><span></p>
+    </div>
 
     </body>
 </html>

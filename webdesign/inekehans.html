@@ -4,31 +4,44 @@
         <title>k1gk&#9836; Portfolio</title>
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/main.css">
-
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
-        <script>  
-        $(function(){ 
-        $("#header").load("../default/header.html");  
-        $("#nav").load("../default/nav.html");  
-        $("#footer").load("../default/footer.html");  
-        }); 
-        </script>  
     </head>
 
     <body>
         <!-- header -->
-        <div id="header"></div>
-        <div id="nav"></div>
+        <div class="header">
+            <!-- home link -->
+            <div class="name">
+                <a href="../index.html" class="brand"><h1>Grace Kim</h1></a>
+            </div>
+
+            <div class="nav">
+                <div class= "navelement">    
+                    <a href="../index.html#about">About</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="../uxui.html">UX/UI Design</a>
+                </div>
+                <div class= "navelement">    
+                    <a href="../webdesign.html">Web Design</a>
+                </div>
+            </div>
+    
+        </div>
+
         <!-- header end -->
 
         <!-- project title -->
-        <div ="pName">
-        <a href="../webdesign.html"><h2 class="category">Web Design</h2></a>
-            <h2>Designer Microsite - Ineke Hans</h2>
-        </div>
+        <div class="cbody">
+
+            <div class="cheader">
+                <h4><span style="color: #F5BD41;"><b>Web Design</b></span></h4>
+                <h2>Ineke Hans Microsite</h2>
+                <!-- horizontal line for division -->
+                <hr>
+            </div>
 
         <div class= "img">
-            <img class="pimg" src="../img/IH1.png" alt="The Project Description Page of the Designer Microsite" width=80% oncontextmenu="return false;">
+            <img class="cimg" src="../img/IH1.png" alt="The Project Description Page of the Designer Microsite" width=80% oncontextmenu="return false;">
         </div>
 
         <!-- project summary -->
@@ -72,9 +85,9 @@
 
                     <div class= "img_grid_column">
 
-                        <img class="pimg" src="../img/IH2-1.png" alt="The Style Guide of the Designer Microsite" width=45% oncontextmenu="return false;">
+                        <img class="cimg" src="../img/IH2-1.png" alt="The Style Guide of the Designer Microsite" width=45% oncontextmenu="return false;">
 
-                        <img class="pimg" src="../img/IH2-2.png" alt="The Wireframe of the Designer Microsite" width=45% oncontextmenu="return false;">
+                        <img class="cimg" src="../img/IH2-2.png" alt="The Wireframe of the Designer Microsite" width=45% oncontextmenu="return false;">
 
                     </div>
 
@@ -88,12 +101,15 @@
                 </div>
 
                 <div class= "img">
-                    <img class="pimg" src="../img/IH3.gif" alt="The About Page of the Designer Microsite" width=80% oncontextmenu="return false;">
+                    <img class="cimg" src="../img/IH3.gif" alt="The About Page of the Designer Microsite" width=80% oncontextmenu="return false;">
                 </div>
-
+            </div>
         </div>
 
-        <div id="footer"></div>
+    <!-- footer -->
+    <div class="footer">
+        <p class="footertext">Designed & Coded by <span style="color: #F5BD41;"><b>&#9836; k1g.k &#9836;</b><span></p>
+    </div>
 
     </body>
 </html>

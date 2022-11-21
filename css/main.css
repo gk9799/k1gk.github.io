@@ -114,7 +114,7 @@ video::-webkit-media-controls-enclosure {
 /* end of images */
 
 /* content */
-.body{
+.body, .cbody{
     padding-top: 80px;
 }
 
@@ -263,4 +263,24 @@ video::-webkit-media-controls-enclosure {
     background-color: #FAFAFF;
     opacity: 50%;
     width: 100%;
+}
+
+/* project detail page */
+.cbody{
+    padding-left: 10%;
+}
+
+.cheader{
+    line-height: 0.5;
+   
+}
+
+hr{
+    width: 90%;
+    margin-left: 0;
+}
+.cimg{
+    display: block;
+    margin-right: 10%;
+    width: 90%;
 }
