@@ -1,0 +1,28 @@
+/* this is font.css */
+
+@font-face {
+    font-family: 'Playfair';
+    font-weight: normal;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Playfair';
+    font-weight: medium;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: 'Playfair';
+    font-weight: bold;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf);
+}
+    
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
